@@ -1,0 +1,19 @@
+You can export 
+-functions
+-constant
+-variable
+-classes
+-objects
+-Anything
+
+you can rename imports using the as keyword i.e the variable name
+
+you can import all the the variables from an export using
+* as varable from part
+
+Default export
+1)You can only have one default export in a single module
+
+
+How to aggregate your modules
+This is having multiple modules from a single module

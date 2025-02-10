@@ -1,26 +1,33 @@
-import {water} from './utils.js'; //aggrgating exports
+//Accessing utils.js using the import keyword
+//import { name as myName, double } from './utils.js';
 
-water();
+//console.log(double(8));
+//console.log(double(90));
 
-import { default as bottle } from './utils.js'; //import default components
+//console.log(myName);
 
 //or
 
-import bottle from './utils.js';  
+import * as utils from './utils.js';
+
+console.log(utils.name);
+
+console.log(utils.double(9));
+
+utils.water();
+
+
+//import { default as bottle } from './defult.js'
+
+//or
+
+import bottle from './defult.js';
 
 bottle();
 
-// import * as utils from './utils.js'; //import all components
 
-// console.log(utils.double(5));
-// console.log(utils.name);
 
-//import {double as utilsDouble, name} from './utils.js'; //this is used to import a function from a particular file
 
-// console.log(double(5)); You can rename the variable
 
-//console.log(utilsDouble(5)); //renamed variable
-
-//console.log(name);
 
 

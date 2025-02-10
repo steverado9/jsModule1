@@ -1,3 +1,3 @@
-export function water() {
-    console.log('Water!'); 
+export const water = () => {
+    console.log('water!');
 }

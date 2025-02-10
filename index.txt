@@ -1,3 +1,5 @@
+- modules: These are javascript codes in an external file that perform a particular task.
+To use modules, you must include type = 'module' on your script tag.
 You can export 
 -functions
 -constant
@@ -6,14 +8,13 @@ You can export
 -objects
 -Anything
 
-you can rename imports using the as keyword i.e the variable name
+-alises: renaming your components using as keyword.
 
-you can import all the the variables from an export using
-* as varable from part
+- (*): This is used to import all the the variables from an export.
 
 Default export
-1)You can only have one default export in a single module
+1)You can only have one default export in a single module.
 
 
 How to aggregate your modules
-This is having multiple modules from a single module
+This is having multiple modules available in a single module.

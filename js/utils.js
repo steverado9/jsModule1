@@ -1,13 +1,17 @@
-// const name = 'Dom';
-
-// function double(n) { //the expoort key word is used to export a function
+// This is a module that doubles a particular number
+// export const double = (n) => {
 //     return n * 2;
 // }
 
-// export { name, double }
+//export const name = 'Dom!';
 
-export default function sayName() {
-    console.log('Dom!');
+//or
+
+export { double, name }
+
+const name = 'Dom!';
+
+const double = (n) => {
+    return n * 2;
 }
-
-export {water} from './helper.js';
+export { water } from './helper.js';
